@@ -3,9 +3,13 @@
     padding: 0%;
 }
 
+:root{
+    --main-color:rgb(218, 55, 55);
+    --color:#ccc;
+}
 nav{
     position: fixed;
-    background-color: #6c757d;
+    background-color: var(--main-color);
     width: 100%;
     top: 0px;
     z-index: 5;
@@ -20,7 +24,7 @@ ul li{
 }
 li a{
     text-transform: uppercase;
-    color: whitesmoke;
+    color: var(--color);
     font-size: 2.5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
